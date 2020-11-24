@@ -1,0 +1,66 @@
+.Article {
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    height: auto;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Top {
+    height: 600px;
+    width: 1000px;
+}
+.Front-pic {
+    height: 500px;
+    width: 100%;
+    filter: brightness(90%);
+}
+.Author-info {
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    position: relative;
+    color:	#383838;
+}
+.Author {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid #383838;
+}
+.Author-info h2 {
+    display: inline;
+    bottom: 15px;
+    position: relative;
+}
+.Author-info a {
+    text-decoration: none;
+    color: 	#383838;
+}
+.Rest {
+    width: 800px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+.Rest div h2 {
+    text-align: center;
+    color: 	#383838;
+    font-size: 2.4em;
+}
+.Rest div p {
+    font-size: 1.4em;
+    color: 	#383838;
+}
+.Rest div img {
+    width: 100%;
+    height: 500px;
+}
+.Rest div li {
+    padding: 5px;
+}
+.Rest div a {
+    font-size: 1.4em;
+    color: 	#6699ff;
+    text-decoration: none;
+}

@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+.Title {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.Title h1 {
+    font-family: "Times New Roman";
+    font-size: 5em;
+    text-align: bottom;
+    display: inline;
+    color: #707070;
+}
+.Nav_Bar {
+    background-color: 	#404040;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+.Nav_Bar a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 7.5px 28px;
+}
+.Nav_Bar a:hover {
+    background-color: 	#101010;
+}
+.Nav_Bar .Active {
+    background-color: #339933;
+}
+.Main_Body {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.Footer {
+    height: 175px;
+    width: 100%;
+    background-color: 	#404040;
+    bottom: 0;
+    position: relative;
+}
+.Footer .Footer-top {
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    height: 125px;
+    width: 100%; 
+    text-align: center;
+}
+.Footer .Footer-box {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: 	#202020;
+    text-align: center;
+}
+.Footer-box .fa {
+    float: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+.Footer .Footer-top .contact{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Footer .Footer-top .Note {
+    position: relative;
+    float: left;
+}
+.spacing {
+    width: 100%;
+    height: 200px;
+}
