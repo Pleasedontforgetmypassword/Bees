@@ -1,2 +1,2 @@
 # Bees
-A site about bees
+A website about Bees
